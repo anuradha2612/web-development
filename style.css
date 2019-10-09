@@ -1,0 +1,160 @@
+ #d1{
+       background-color:grey;
+       height:1300px;
+       width:1200px;
+       margin: 40px 40px 40px 40px;
+       font-family:fantasy;
+
+   }
+
+#home{
+       background-image: url("pic20.jpg")
+   }
+
+#gallery{
+       background-image: url("pic2.jpeg")
+   }
+
+#methods{
+      background-image:url("pic4.jpeg")
+  }
+
+#objective{
+      background-image:url("pic16.jpg");
+  }
+
+#d2{
+       background-color:black;
+        margin: 40px 40px 40px 40px;
+        width:800px;
+   }
+
+.head{
+       color:crimson;
+       font-size: 300%;
+   }
+
+table{
+
+       margin-left:40px;
+       margin-right:40px;
+   }
+
+.image{
+
+       width:1100px;
+       height:500px;
+   }
+
+.margin{
+    color:crimson;
+    width:300px;
+    height:50px;
+
+    background-color:black;
+   margin: 50px 50px 50px 50px;
+}
+
+h2{
+    text-align:center;
+    font-family: fantasy;
+    font-size:300%;
+    color:crimson;
+}
+
+h3{
+    text-align: center;
+    font-family: cursive;
+    font-size: 200%;
+    color:crimson;
+}
+
+#i3{
+    float:right;
+}
+
+a:hover{
+    color:blue;
+    font-size:30px;
+}
+
+#d5{
+    background-image:url("pic15.jpg");
+    height:300px;
+     width:1100px;
+       margin: 40px 40px 40px 40px;
+}
+
+#d10{
+    background-image:url("pic20.jpg")
+}
+
+ .image2{
+
+       width:350px;
+       margin:20px 20px 20px 20px;
+   }
+   .image1{
+       width:150px;
+       height:300px;
+       margin:30px 30px 30px 30px;
+   }
+
+   #details{
+      color:crimson;
+      font-size:30px;
+      font-family:sana-serif;
+
+   }
+   #details2{
+      color:crimson;
+      font-size:80px;
+      font-family:sana-serif;
+
+}
+
+
+.head1{
+       color:black;
+       font-size: 400%;
+   }
+    
+   #d55{
+    background-image:url("pic2.jpeg");
+     height:200px;
+     width:1100px;
+       margin: 40px 40px 40px 40px;
+}
+
+#d22{
+       background-color:black;
+        margin: 40px 40px 40px 40px;
+        width:1000px;
+   }
+
+#d16{
+       background-color:grey;
+       height:1000px;
+       width:1200px;
+       margin: 40px 40px 40px 40px;
+       font-family:fantasy;
+
+   }
+        .head6{
+       color:black;
+       font-size: 400%;
+   }
+   
+  
+
+#d26{
+       background-color:crimson;
+        margin: 40px 40px 40px 40px;
+        width:1000px;
+   }
+    #d56{
+    background-image:url("pic6.jpeg");
+     height:400px;
+     width:1100px;
+     margin: 40px 40px 40px 40px;
+}
