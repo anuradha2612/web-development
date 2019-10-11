@@ -1,0 +1,48 @@
+<html ng-app="todoapp">
+   <head>
+     <title>contact.com</title>
+     <meta charset="utf-8">
+     <meta name="viewport"content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
+     <script src="script/angular.js"></script>
+    <script src="script/todo.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+       <script src="script/controllers/todocontroller.js"></script>
+    </head>
+    <body>
+     <div class="container" ng-controller="todocontroller">
+       <h1>Contact List</h1>
+       <br/>
+       <table class="table">
+        <thead>
+       <tr>
+         <th>NAME</th>
+         <th>EMAIL</th>
+         <th>NUMBER</th>
+         <th>ACTION</th>
+         <th></th>
+       </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><input type="text" class="form-control" ng-model="contact.name"/></td>
+          <td><input type="text" class="form-control" ng-model="contact.email"/></td>
+          <td><input type="number" class="form-control" ng-model="contact.number"/></td>
+          <td><button class="btn btn-primary" ng-click="addContact()">ADD</button></td>
+            <td><button class="btn btn-primary" ng-click="updateContact()">UPDATE</button></td>
+        </tr>
+        <tr ng-repeat="contact in contactlist">
+          <td>{{contact.name}}</td>
+           <td>{{contact.email}}</td>
+            <td>{{contact.number}}</td>
+            <td><button class="btn btn-danger" ng-click="deleteContact(contact._id)">DELETE</button></td>
+            <td><button class="btn btn-warning" ng-click="editContact(contact._id)">EDIT</button></td>
+        </tr>
+        </tbody>
+       </table>
+     </div>
+    </body>
+</html>
